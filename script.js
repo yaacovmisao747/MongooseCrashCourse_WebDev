@@ -1,6 +1,8 @@
 const mongoose = require("mongoose")
 const User = require("./User")
 
+//This is a clone folder
+
 mongoose.connect("mongodb://localhost/testdb", () =>{
     console.log('Connected');
 }, e =>console.error(e))
